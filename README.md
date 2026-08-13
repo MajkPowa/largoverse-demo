@@ -1,4 +1,4 @@
-# Largo Bank — uzavřená beta
+﻿# LargoVerse — uzavřená beta
 
 Tento repozitář obsahuje **jediný soubor**: zašifrovanou ukázku aplikace.
 
