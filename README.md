@@ -1,12 +1,7 @@
-﻿# LargoVerse — uzavřená beta
+# LargoVerse: původní webová adresa
 
-Tento repozitář obsahuje **jediný soubor**: zašifrovanou ukázku aplikace.
+Tento repozitář slouží pouze jako přesměrování původní GitHub Pages adresy na aktuální uzavřenou webovou betu: https://largoverse-private-beta.pages.dev/
 
-- `index.html` — celá aplikace zašifrovaná AES-GCM 256; klíč se odvozuje
-  z přístupového hesla (PBKDF2-SHA256, 310 000 iterací) až v prohlížeči.
-- Bez hesla je obsah nečitelný — nejde o skrytý odkaz, ale o skutečné šifrování.
-- Zdrojový kód **není** v tomto repozitáři.
+Pro vstup je potřeba aktuální osobní pozvánka. Přesměrování přenáší pouze jeden syntakticky platný parametr t o délce 32 hex znaků; platnost následně ověřuje soukromá beta. Ostatní parametry a fragment se nepřenášejí.
 
-Ukázka je určena pouze pro pozvaný investorský okruh.
-
-> Nejedná se o bankovní službu. Všechna data v ukázce jsou smyšlená.
+Tento web neobsahuje aplikaci, odemykací klíč, osobní pozvánku ani správu přístupů. Nemění uložená data v prohlížeči. Historie repozitáře zůstává zachovaná.
