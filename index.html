@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="referrer" content="no-referrer" />
 <meta name="robots" content="noindex, nofollow, noarchive" />
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'sha256-W72fuC5BK6rviEFiJb/pIFj4G23OMOtDCLoi0IMt1KA='; base-uri 'none'; form-action 'none'" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'sha256-j09aR8umLzUC5PVK/yo09OiQ4mDRIiR0nL4zD4qm/Yc='; base-uri 'none'; form-action 'none'" />
 <title>LARGOVERSE — aktuální soukromá beta</title>
 <style>
   *{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;background:#0b1416;color:#e8f0f3;font:16px/1.6 system-ui,-apple-system,sans-serif}main{max-width:500px}h1{font-size:26px;font-weight:500;line-height:1.25}p{color:#a9bdc7}a{display:inline-block;margin-top:10px;padding:12px 20px;border-radius:999px;background:#cbdde8;color:#0e2a2e;text-decoration:none;font-weight:600}a:focus-visible{outline:3px solid #65d8ff;outline-offset:5px}.note{font-size:13px;margin-top:24px}
@@ -14,14 +14,14 @@
 <body>
 <main>
   <h1>LARGOVERSE — aktuální soukromá beta</h1>
-  <p>Webová beta se přesunula na aktuální soukromou adresu. Přesměrováváme tě na ni.</p>
-  <a id="current-beta" href="https://largoverse-private-beta.pages.dev/" rel="nofollow" referrerpolicy="no-referrer">Otevřít aktuální betu</a>
-  <p class="note">Pro vstup je nutná aktuální osobní pozvánka. Pokud původní pozvánka není v nové betě platná, požádej jejího odesílatele o aktuální odkaz. Přístupový kód ani jiné tajné údaje se odsud nepřenášejí.</p>
+  <p>Otevíráme aktuální uzavřenou betu na původní Cloudflare adrese.</p>
+  <a id="current-beta" href="https://largoverse-demo.pages.dev/" rel="nofollow" referrerpolicy="no-referrer">Otevřít aktuální betu</a>
+  <p class="note">Pro vstup je nutná platná osobní pozvánka. Její platnost ověří soukromá beta. Odebrané ani vypršené pozvánky přístup neobnoví; pokud vstup nefunguje, požádej odesílatele o ověření pozvánky. Přístupový kód ani jiné tajné údaje se odsud nepřenášejí.</p>
   <noscript><p>Automatické přesměrování vyžaduje JavaScript. Otevři prosím svou aktuální osobní pozvánku nebo použij tlačítko výše.</p></noscript>
 </main>
 <script>
 (function () {
-  var target = new URL('https://largoverse-private-beta.pages.dev/');
+  var target = new URL('https://largoverse-demo.pages.dev/');
   var invitations = new URLSearchParams(window.location.search).getAll('t');
   if (invitations.length === 1 && /^[a-f0-9]{32}$/i.test(invitations[0])) {
     target.searchParams.set('t', invitations[0]);
